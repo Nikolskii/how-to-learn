@@ -307,6 +307,10 @@
   display: block;
 }
 
+.footer__column-link:hover {
+  text-decoration: underline;
+}
+
 .footer__social-icon {
  width: 16px;
  height: 16px;
