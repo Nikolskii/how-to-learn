@@ -6,8 +6,3 @@
 .form-message__name:focus {
   outline: 1px solid #2f80ed; 
 } 
-
-/* .form-message__name::placeholder {
-  color: red;
-} */
-
