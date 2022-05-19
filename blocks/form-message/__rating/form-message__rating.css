@@ -1,0 +1,8 @@
+.form-message__rating {
+  width: 50px;
+  margin: 0 0 20px 0;
+}
+
+.form-message__rating:focus {
+  outline: 1px solid #2f80ed; 
+} 

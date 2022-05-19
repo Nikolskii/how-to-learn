@@ -1,0 +1,13 @@
+.form-message__button {
+width:200px;
+transition: opacity 0.5s;
+color:#2f80ed
+}
+
+.form-message__button:hover {
+  opacity: 0.6;
+}
+
+.form-message__button:focus {
+  outline: 1px solid #2f80ed; 
+} 

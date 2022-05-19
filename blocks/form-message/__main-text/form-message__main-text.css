@@ -1,0 +1,9 @@
+.form-message__main-text {
+  width: 300px;
+  height: 70px;
+  margin: 0 0 20px 0;
+}
+
+.form-message__main-text:focus {
+  outline: 1px solid #2f80ed; 
+} 

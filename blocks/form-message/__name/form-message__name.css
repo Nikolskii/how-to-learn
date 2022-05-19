@@ -1,0 +1,13 @@
+.form-message__name {
+  width: 200px;
+  margin: 0 0 20px 0;
+}
+
+.form-message__name:focus {
+  outline: 1px solid #2f80ed; 
+} 
+
+/* .form-message__name::placeholder {
+  color: red;
+} */
+
