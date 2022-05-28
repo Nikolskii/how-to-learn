@@ -1,12 +1,26 @@
-@keyframes rotation {
+@-webkit-keyframes rotation {
   from {
+    -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg);
   }
   to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
   }
 }
 
 .rotation {
+  -webkit-animation: rotation 20s linear infinite normal;
   animation: rotation 20s linear infinite normal;
 }
